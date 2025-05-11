@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
        
-    <div className=' h-full w-full flex items-center justify-center'>
+    <div name = 'About' className=' h-full w-full flex items-center justify-center'>
         <div className='flex-wrap m- h-full w-[80%] flex flex-col items-start'>
             <h1 className='font-bold text-3xl'>About</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam error minima itaque quam aperiam ducimus neque facere iure temporibus veniam perferendis voluptatibus id iusto, officia dolorum cupiditate repellat. Officiis?</p>

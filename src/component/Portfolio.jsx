@@ -71,7 +71,7 @@ const Portfolio = () => {
         }
     ])
   return (
-    <div className='h-full w-full flex flex-col items-center mt-10 justify-center'>
+    <div name='Exprience' className='h-full w-full flex flex-col items-center mt-10 justify-center'>
        
         
               <h1 className='font-bold text-4xl'>Exprience</h1>

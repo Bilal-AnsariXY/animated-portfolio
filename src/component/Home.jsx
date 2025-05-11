@@ -12,7 +12,7 @@ import mypic from '../public/mypic.jpg'
 const Home = () => {
   return (
     <>
-        <div className=' flex  flex-col-reverse mt-30 md:flex-row lg:flex-row  sm:mt-30 md:mt-10 sm:flex-col-reverse items-center  h-screen justify-evenly  w-full m-5'>
+        <div name = 'Home' className=' flex  flex-col-reverse mt-30 md:flex-row lg:flex-row  sm:mt-30 md:mt-10 sm:flex-col-reverse items-center  h-screen justify-evenly  w-full m-5'>
             <div className='w-[50%]'>
                 <p className='font-bold'>Welcome in My Feed</p>
                 <h1 className='font-bold text-4xl'>Hello, I'm a <span> </span>

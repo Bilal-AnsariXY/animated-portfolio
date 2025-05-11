@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import mypic from '../public/mypic.jpg'
 import { RxCross1 } from "react-icons/rx";
+import { Link } from 'react-scroll';
 import { AiOutlineMenu } from "react-icons/ai";
 const Navbar = () => {
     const [clicked,setClicked] = useState(false);
@@ -19,11 +20,20 @@ const Navbar = () => {
                 <p className='font-semibold'>Web Devloper</p>
             </div>
         </div>
+
         <div className='m-10'>
             <ul className='hidden lg:flex  space-x-10'>
                 {
                     arr.map((e,i)=>(
-                        <li key={i}>{e}</li>
+                        <li key={i}>
+                           <Link to={e}
+                           smooth={true}
+                           duration={1000}
+                           offset={-70}
+                           activeClass='active'>
+                           {e}
+                           </Link> 
+                        </li>
                     ))
                 }
             </ul>
@@ -45,7 +55,17 @@ const Navbar = () => {
             <ul className='space-y-4'>
                 {
                     arr.map((e,i)=>(
-                        <li className='text-2xl ' key={i}>{e}</li>
+                        <li className='text-2xl ' key={i}>
+                        <Link onClick={()=>{setClicks(!clicks)
+                            setClicked(!clicked);
+                        }} to={e}
+                           smooth={true}
+                           duration={1000}
+                           offset={-70}
+                           activeClass='active'>
+                           {e}
+                           </Link> 
+                        </li>
                     ))
                 }
             </ul>
