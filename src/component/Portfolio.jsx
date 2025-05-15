@@ -13,30 +13,7 @@ const Portfolio = () => {
             img : <IoLogoJavascript size={80}/>,
             name : 'JavaScript'
         },
-        {
-            img : <IoLogoJavascript size={80}/>,
-            name : 'JavaScript'
-        },
-        {
-            img : <IoLogoJavascript size={80}/>,
-            name : 'JavaScript'
-        },
-        {
-            img : <IoLogoJavascript size={80}/>,
-            name : 'JavaScript'
-        },
-        {
-            img : <IoLogoJavascript size={80}/>,
-            name : 'JavaScript'
-        },
-        {
-            img : <IoLogoJavascript size={80}/>,
-            name : 'JavaScript'
-        },
-        {
-            img : <FaHtml5 size={80}/>,
-            name : 'HTML'
-        },
+       
         {
             img : <FaHtml5 size={80}/>,
             name : 'HTML'
@@ -45,30 +22,7 @@ const Portfolio = () => {
             img : <FaCss3Alt size={80}/>,
             name : 'CSS'
         },
-        {
-            img : <FaHtml5 size={80}/>,
-            name : 'HTML'
-        },
-        {
-            img : <FaHtml5 size={80}/>,
-            name : 'HTML'
-        },
-        {
-            img : <FaCss3Alt size={80}/>,
-            name : 'CSS'
-        },
-        {
-            img : <FaHtml5 size={80}/>,
-            name : 'HTML'
-        },
-        {
-            img : <FaHtml5 size={80}/>,
-            name : 'HTML'
-        },
-        {
-            img : <FaCss3Alt size={80}/>,
-            name : 'CSS'
-        }
+       
     ])
   return (
     <div name='Exprience' className='h-full w-full flex flex-col items-center mt-10 justify-center'>

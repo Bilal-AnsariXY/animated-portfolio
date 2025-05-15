@@ -25,7 +25,7 @@ const Home = () => {
                         loop={true}
                     />
                 </h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur officia rerum ut! Adipisci animi, necessitatibus quam suscipit non repellat repellendus, voluptate tempora architecto harum omnis vitae natus molestiae voluptatibus blanditiis.</p>
+                <p>I’m Bilal Ahmed Ansari, a passionate Computer Science student with a strong foundation in Data Structures and Algorithms, MERN Stack development, and core CS subjects. I'm focused on becoming a full-stack developer and continuously enhancing my problem-solving and software development skills.</p>
                 <div className='md:flex-row lg:flex-row flex-col  flex justify-between mt-5 items-center'>
                     <div className='m-5 flex items-center  flex-col justify-between' >
                         <p className='font-medium text-md'>Avalible on</p>
